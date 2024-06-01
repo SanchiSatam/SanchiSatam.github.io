@@ -2042,6 +2042,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 200px; /* Set a uniform width */
+    	height: 200px;
 	}
 
 		.image:before {
@@ -2131,6 +2133,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 100%;
 			}
 
 		.image.avatar {
@@ -2625,6 +2628,7 @@ input, select, textarea {
 
 		#header strong, #header b {
 			color: #ffffff;
+			font-size: xx-large;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2632,7 +2636,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(250, 250, 250, 0.919);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2640,7 +2644,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10.25em;
 		}
 
 /* Footer */
@@ -2650,11 +2654,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.9);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.9);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2926,7 +2930,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(0, 0, 0, 0.5);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
